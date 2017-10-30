@@ -14,6 +14,16 @@ class Probka
         double t:
         double x;
         Probka();
+        struct Probka {
+ double t;
+ double x;
+
+ Probka(double _t,double _x)
+ {
+     t= _t;
+     x= _x;
+ }
+};
 
 };
 

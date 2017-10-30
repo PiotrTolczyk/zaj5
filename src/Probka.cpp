@@ -9,7 +9,15 @@
 
 Probka::Probka(double _t, double _x)
 {
-    //ctor
+    struct Probka {
+ double t;
+ double x;
+
+ Probka(double _t,double _x)
+ {
+     t= _t;
+     x= _x;
+ }
 }
 
 Probka::~Probka()

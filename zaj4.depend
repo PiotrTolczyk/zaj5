@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1509380018 source:d:\piotr to³czyk\zaj5\main.cpp
+	<iostream>
+	<vector>
+	<fstream>
+	<sstream>
+	<string>
+	<stdexcept>
+	<limits>
+

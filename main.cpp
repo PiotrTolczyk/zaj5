@@ -1,11 +1,10 @@
- #include <iostream>
+#include <iostream>
 #include <vector>
- #include <fstream>
- #include <sstream>
-
- #include <string>
- #include <stdexcept>
- #include <limits>
+#include <fstream>
+#include <sstream>
+#include <string>
+#include <stdexcept>
+#include <limits>
 
 using namespace std;
 
@@ -53,6 +52,7 @@ void odczyt(vector <Probka> probkix)
 }
 
 void zapisz (vector <Probka> probkix)
+{
     ofstream plik("cwiczenie.txt");
 
     for (int i = 0; i <= probkix.size(); i++)
@@ -151,5 +151,6 @@ int main(int argc, char* argv[])
     calkowanie (dane);
     cout << "Wartosc calki sygnalu wynosi " << calkowanie (dane) << endl;
     zapisz (dane);
+    getchar(); getchar();
     return 0;
 }
