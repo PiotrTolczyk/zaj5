@@ -35,5 +35,5 @@ SygnalLoaer::SygnalLoaer()
 
 SygnalLoaer::~SygnalLoaer()
 {
-    //dtor
+
 }

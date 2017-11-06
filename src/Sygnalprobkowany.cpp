@@ -7,7 +7,7 @@
 #include <stdexcept>
 #include <limits>
 
-Sygnal::Sygnal(probki : std::vector<Probka>)
+Sygnalprobkowany::Sygnalprobkowany(probki : std::vector<Probka>)
 {
     void odczyt(vector <Probka> probkix)
 {
@@ -29,7 +29,7 @@ void zapisz (vector <Probka> probkix)
 plik.close();
 }
 
-Sygnal::~Sygnal()
+Sygnalprobkowany::~Sygnalprobkowany()
 {
     //dtor
 }

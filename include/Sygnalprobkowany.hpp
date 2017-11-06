@@ -9,7 +9,7 @@
 #include <limits>
 
 
-class Sygnal
+class Sygnalprobkowany
 {
     public:
         Sygnal(probki : std::vector<Probka>);

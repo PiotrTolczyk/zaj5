@@ -19,6 +19,15 @@ struct Probka {
  }
 };
 
+class Sygnalprobkowany(double x, double t): public Sygnal(double x, double t)
+{
+    double a = x(t) - sin(t);
+    ofstream plik ("roznica.txt");
+    if (a =! 0)
+        plik << a;
+    plik.close;
+};
+
     vector <Probka> wczytaj (string nazwa)
     {
      vector <Probka> tablica;
@@ -76,7 +85,7 @@ plik.close();
  return minimum;
 }
 
-double maxi (vector <Probka> probkix)
+double maxi (vector <Probka> probkix
 {
 double maximum = -10000.0;
 for (int i = 0; i < probkix.size(); i++)
@@ -125,6 +134,8 @@ double dlugosc_vectora(vector <Probka> probkiy)
 
     return roznica;
 }
+
+Sygnalsinusoidalny(vector <Probka>);
 
 int main(int argc, char* argv[])
 {
